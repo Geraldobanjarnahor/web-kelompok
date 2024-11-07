@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/icons/font/bootstrap-icons.min.css">
+    <script types="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Data Asal Sekolah</h2>
+        <form>
+          <div class="mb-3">
+            <label for="namaSekolah" class="form-label">Nama Sekolah</label>
+            <input type="text" class="form-control" id="namaSekolah" placeholder="SDN 03 Jatipuro">
+          </div>
+    
+          <h2 class="mt-5">Biodata Siswa</h2>
+          <div class="mb-3">
+            <label for="namaLengkap" class="form-label">Nama Lengkap</label>
+            <input type="text" class="form-control" id="namaLengkap" placeholder="Anggita Febriana Putri">
+          </div>
+    
+          <div class="mb-3">
+            <label class="form-label">Jenis Kelamin</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="jenisKelamin" id="lakiLaki" value="Laki-laki">
+              <label class="form-check-label" for="lakiLaki">Laki-laki</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="jenisKelamin" id="perempuan" value="Perempuan" checked>
+              <label class="form-check-label" for="perempuan">Perempuan</label>
+            </div>
+          </div>
+    
+          <div class="mb-3">
+            <label for="nisn" class="form-label">NISN</label>
+            <input type="text" class="form-control" id="nisn" placeholder="0001450164">
+          </div>
+    
+          <div class="mb-3">
+            <label for="tempatLahir" class="form-label">Tempat Lahir</label>
+            <input type="text" class="form-control" id="tempatLahir" placeholder="Indonesia">
+          </div>
+    
+          <div class="mb-3">
+            <label for="tanggalLahir" class="form-label">Tanggal Lahir</label>
+            <input type="date" class="form-control" id="tanggalLahir" value="2007-02-28">
+          </div>
+    
+          <h2 class="mt-5">Alamat Siswa</h2>
+          <div class="mb-3">
+            <label for="alamatSiswa" class="form-label">Alamat Siswa</label>
+            <textarea class="form-control" id="alamatSiswa" rows="2" placeholder="Jl. Jambu Kluthuk"></textarea>
+          </div>
+    
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="provinsi" class="form-label">Provinsi</label>
+              <select class="form-select" id="provinsi">
+                <option selected>Jawa Timur</option>
+              </select>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="kota" class="form-label">Kota / Kabupaten</label>
+              <select class="form-select" id="kota">
+                <option selected>Kota Malang</option>
+              </select>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="kecamatan" class="form-label">Kecamatan</label>
+              <input type="text" class="form-control" id="kecamatan" placeholder="Belimbing">
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="kelurahan" class="form-label">Kelurahan</label>
+              <input type="text" class="form-control" id="kelurahan" placeholder="Arjosari">
+            </div>
+          </div>
+    
+          <div class="row mb-5">
+            <div class="col-md-6 mb-3">
+              <label for="rtRw" class="form-label">RT / RW</label>
+              <input type="text" class="form-control" id="rtRw" placeholder="...">
+            </div>
+          </div>
+    
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</body>
+</html>

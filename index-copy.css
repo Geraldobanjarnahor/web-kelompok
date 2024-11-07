@@ -1,0 +1,10 @@
+.form-signin {
+    width: auto;
+    max-width: 350px;
+    padding: 15px;
+    margin: auto;
+}
+
+form img {
+    vertical-align: middle;
+}
